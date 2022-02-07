@@ -7,9 +7,12 @@
     "react-audio-player": "^0.6.2",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
-    "react-scripts": "1.0.13"
+    "react-scripts": "1.0.13",
+    "homepage": "https://jolamhk.github.io/Jammming-project/"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
