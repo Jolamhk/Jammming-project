@@ -1,4 +1,4 @@
-const clientId = 'f47451de3cf042f1afad68fe81a8561d';
+const clientId = 'f3eb77f01ea740eabdaed8f2aeff2cce';
 const redirectUri = 'https://jolamhk.github.io/Jammming-project/';
 
 let accessToken;
