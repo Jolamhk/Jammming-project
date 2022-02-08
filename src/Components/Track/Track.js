@@ -11,15 +11,13 @@ class Track extends React.Component {
         this.addTrack = this.addTrack.bind(this);
         this.removeTrack = this.removeTrack.bind(this);
         this.togglePlayPreview = this.togglePlayPreview.bind(this);
-        // this.audioEnded = this.audioEnded.bind(this);
+
         this.renderPreviewIcon = this.renderPreviewIcon.bind(this);
     }
-    // Adds this.props.track as an argument to the addTrack method in App.js
     addTrack() {
         this.props.onAdd(this.props.track);
     }
 
-    // Adds this.props.track as an argument to the removeTrack method in App.js
     removeTrack() {
         this.props.onRemove(this.props.track);
     }
